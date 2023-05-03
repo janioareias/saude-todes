@@ -26,10 +26,7 @@ a:link, a:visited {
 }
 
 .nav ul {
-    margin-top: 5%;
-    margin-bottom: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 5%; 10%; 3%; 10%;
     list-style: none;
     white-space: nowrap;
 
