@@ -1,5 +1,6 @@
 * { 
   font-family: 'Montserrat', sans-serif;
+
 }
 .nav {
     background-color: #1f1635;
@@ -330,10 +331,9 @@ max-width: 100%;
 
 .newsletter {
   display: flex;
-  margin-left: 10%;
-  margin-top: 10%;
-  margin-right: 10%;
+  margin: 5%, 10%, 5%, 10%;
   align-items: center;
+  
 }
 
 .newsletter h1 {
