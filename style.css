@@ -168,14 +168,13 @@ a:link, a:visited {
   margin-top: 10%;
   margin-left: 30%;
   margin-right: 20%;
-  font-size: 4vh;
   padding-bottom: 5%;
 
 
 }
 
 .txt1 {
-  font-size: 6vh;
+  font-size: 200%;
   font-weight: 300;
 }
 
@@ -184,7 +183,7 @@ a:link, a:visited {
   color: #7066a9;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 6vh;
+  font-size: 300%;
 
 }
 
@@ -192,6 +191,7 @@ a:link, a:visited {
 .txt3 {
   color: #464578;
   font-weight: 400;
+  font-size: 200%;
 }
 
 
