@@ -1,0 +1,413 @@
+* { 
+  font-family: 'Montserrat', sans-serif;
+}
+.nav {
+    background-color: #1f1635;
+    display: flex;
+    
+}
+
+a:link, a:visited {
+    margin-left: 5%;
+    margin-right: 6%;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+.logo {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 100px;
+    height: 60px;
+    
+}
+
+.nav ul {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style: none;
+    white-space: nowrap;
+
+  }
+
+  .nav li {
+    display: inline-block;
+    margin-right: 5%;
+
+  }
+  
+  .nav-list .inicio:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 7px;
+    margin-right: 5px;
+    background-color: #831fff;
+    vertical-align: middle;
+  }
+  
+  .nav-list .conheca-a-gente:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 7px;
+    margin-right: 5px;
+    background-color: #0091d3;
+    vertical-align: middle;
+  }
+
+  .nav-list .clinica:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 7px;
+    margin-right: 5px;
+    background-color: #81c235;
+    vertical-align: middle;
+  }
+  
+  .nav-list .educacao:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 7px;
+    margin-right: 5px;
+    background-color: #eddb4f;
+    vertical-align: middle;
+  }
+
+
+  .nav-list .navblog:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 7px;
+    margin-right: 5px;  
+    vertical-align: middle;
+    background-color: #ed980f;
+  }
+
+  .nav-list .contato:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 7px;
+    margin-right: 5px;
+    background-color: #ed4b3d;
+    vertical-align: middle;
+  }
+
+  .container-fotodoscara {
+    position: relative;
+    display: inline-block;
+  }
+  .fotodoscara {
+    max-width: 100%;
+    border-bottom: 15px solid #7066a9;
+  }
+
+.quadrado {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 50%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.quadrado-novo { 
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  height: 10%;
+  background-color: #464578;
+  border-radius: 50px;
+}
+
+.quadrado-novo p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-size: 20px;
+  color: white;
+  padding: 0;
+  margin-top: 5%;
+}
+
+.aproximando {
+  color: #831fff;
+}
+
+.cuidado {
+  color: #0091d3;
+}
+
+.diminuindo {
+  color: #81c235;
+}
+
+.a {
+  color: #eddb4f;
+}
+
+.distancia {
+  color: #ed4b3d;
+}
+
+.txt1, .txt2, .txt3 {
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 20%;
+  font-size: 4vh;
+  padding-bottom: 5%;
+
+
+}
+
+.txt1 {
+  font-size: 6vh;
+  font-weight: 300;
+}
+
+.txt2 {
+  
+  color: #7066a9;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 6vh;
+
+}
+
+
+.txt3 {
+  color: #464578;
+  font-weight: 400;
+}
+
+
+.clinica-i, .clh1 {
+  margin-left: 15%;
+  font-weight: 400;
+  color: #1f1635;
+  display: flex;
+  text-align: center;
+
+}
+
+.clinica-i p, h1 {
+  padding: 3%;
+}
+
+.clh1 {
+  font-size: 250%;
+}
+.endo {
+  border: 10px solid #464578;
+  width: 300px;
+  height: 300px;
+  margin-right: 3%;
+}
+
+.sex {
+  border: 10px solid #464578;
+  width: 300px;
+  height: 300px;
+  margin-right: 3%;
+  background-image: url(src/clinica2.png);
+  color: white;
+}
+
+.geral {
+  border: 10px solid #464578;
+  width: 300px;
+  height: 300px;
+  background-image: url(src/clinica3.jpg);
+  color: white;
+}
+
+.atendimento {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+}
+.holder {
+  overflow: hidden;
+}
+
+.banner img {
+max-width: 100%;
+}
+.holder h1, .holder p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 300%;
+}
+
+.holder p {
+  margin-top: 7%;
+  font-size: 150%;
+  letter-spacing: 9px;
+
+}
+
+.whats p {
+  margin-top: 15%;
+  font-size: 100%;
+  letter-spacing: normal;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  padding: 2%;
+}
+
+.orgulho {
+  position: absolute;
+  bottom: -10%;
+  right: 0px;
+  width: 15%;
+  height: 20%;
+}
+
+.blog {
+  background-color: #7066a9;
+  color: white;
+  border-bottom: 10px solid #bfaaef;
+
+}
+
+.blog-imgs {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 10%;
+  margin-top: 0px;
+  margin-bottom: 5%;
+  
+
+}
+
+.blog h1 {
+  font-size: 35px;
+  margin-left: 10%;
+
+}
+.foto01 {
+  border-bottom: 10px solid #bfaaef;
+  width: 70%;
+  height: 50%;
+
+}
+
+.foto02 {
+  border-bottom: 10px solid #bfaaef;
+  width: 70%;
+  height: 50%;
+  background-image: url(src/clinica2.png);
+  color: white;
+}
+
+.foto03 {
+  border-bottom: 10px solid #bfaaef;
+  width: 70%;
+  height: 50%;
+  background-image: url(src/clinica3.jpg);
+  color: white;
+}
+
+.newsletter {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right: 10%;
+  align-items: center;
+}
+
+.newsletter h1 {
+  color: #1f1635;
+  font-size: 250%;
+  font-weight: 400;
+  padding-right: 10%  ;
+}
+
+.newsletter p {
+  color: #1f1635;
+  
+}
+
+.email { 
+  border-bottom: 2px solid #1f1635;
+  padding-right: 30%;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 10%;
+
+}
+
+.news-botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #464578;
+  margin-right: 10%;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 20%;
+  height: 50%;
+
+}
+
+.news-botao p {
+  color: white;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #464578;
+  color: white;
+  font-size: 60%;
+  font-weight: 200;
+  margin: 0%, 10%, 0%, 10%;
+
+}
+
+.rodape img {
+  margin-left: 10%;
+  margin-bottom: 0;
+}
+.coluna2,
+.coluna3 {
+  flex: 1;
+  margin: 5%;
+  margin-bottom: 0;
+}
+
+.back {background-color: #464578;
+  margin-bottom: 0;
+
+}
+
+.rodapeDois {
+  margin-top: 0;
+  margin: 0;
+  background-color: #1f1635;
+  color: white;
+}
